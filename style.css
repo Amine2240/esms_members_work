@@ -1,0 +1,416 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+
+  /* @font-face {
+    font-family: Rubik;
+    src: url();
+} */
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .nav {
+    background-color: #A5E59F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 8px 10px 0px rgba(51, 255, 192, 0.25);
+    color: #000;
+  }
+
+  .list {
+    display: flex;
+    list-style: none;
+    gap: 52px;
+    margin-right: 100px;
+    align-items: center;
+
+
+  }
+
+  #logo {
+    width: 90px;
+    height: 60px;
+    background-color: #A5E59F;
+    padding: 10px;
+  }
+
+  .sec1 {
+
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+  }
+
+  #green_hack {
+    width: 540px;
+    height: 120px;
+    margin: 50px 0px 0px 30px;
+
+  }
+
+  .agenda {
+
+    margin-left: 100px;
+
+    display: flex;
+    margin-top: 40px;
+
+
+  }
+
+  #p1 {
+    color: aliceblue;
+    margin-left: 60px;
+    font-family: "Rubik";
+
+
+  }
+
+
+  .div2 {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+
+
+  }
+
+  #p2 {
+    color: #FFF;
+    font-family: "Rubik";
+    margin-left: 60px;
+    font-style: normal;
+
+  }
+
+  .button1 {
+    color: #000;
+    font-family: "Rubik";
+    padding: 12px 80px 12px 80px;
+    border-radius: 45px;
+    background-color: #A9EBA7;
+    margin: 50px 0px 0px 100px;
+    transition: 0.7s ease;
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+  }
+
+  .button1:hover {
+    background-color: #befbbc;
+    transform: scale(1.1);
+  }
+
+  #p4 {
+    width: 100px;
+
+  }
+
+  .divg {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  #p3 {
+    color: #FFF;
+    background: linear-gradient(180deg, #5DF363 0%, rgba(65, 114, 67, 0.00) 100%);
+    margin-left: 450px;
+    font-size: 25px;
+    padding: 30px;
+    font-family: "Rubik";
+  }
+
+  #text {
+    color: rgba(255, 255, 255, 0.47);
+    font-family: "Rubik";
+    font-size: 20px;
+  }
+
+  .aboutsect {
+    display: flex;
+    justify-content: space-around;
+
+    height: 550px;
+    margin: 50px;
+
+  }
+
+  .aboutsectdiv1 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+  }
+
+
+  .aboutchild2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    margin-top: 50px;
+
+
+
+  }
+
+  #aboutsecth1 {
+    color: rgba(138, 225, 142, 0.92);
+    font-family: Rubik;
+    background: linear-gradient(180deg, rgba(51, 255, 192, 0.00) 0%, rgba(51, 255, 192, 0.80) 100%);
+    width: fit-content;
+    font-size: 35px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+
+  }
+
+  #aboutchild2p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 20px;
+
+  }
+
+
+  .about-img2 {
+    box-shadow: 30px 30px 39px green;
+    height: 300px;
+    border-radius: 30px;
+  }
+
+  .about-img1 {
+    box-shadow: 10px 20px 39px green;
+    border-radius: 30px;
+    height: 280px;
+
+
+  }
+
+  .aboutus {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+
+
+
+
+
+
+  }
+
+  .aboutus-img2 {
+    box-shadow: 10px 20px 39px green;
+    border-radius: 50px;
+
+
+  }
+
+  .aboutus-img1 {
+    background-color: #5DF363;
+    border-radius: 30px;
+    height: 61%;
+    box-shadow: 10px 20px 39px green;
+
+  }
+
+  .aboutus-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 100px;
+
+
+  }
+
+  .aboutus-div2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 550px;
+
+  }
+
+  #aboutus-p1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+  }
+
+  #aboutus-div2-h1 {
+    color: rgba(138, 225, 142, 0.92);
+    font-family: Rubik;
+    background: linear-gradient(180deg, rgba(51, 255, 192, 0.00) 0%, rgba(51, 255, 192, 0.80) 100%);
+    width: fit-content;
+    font-size: 35px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .agenda1 {
+
+    margin-top: 100px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+
+  .agendadiv1 {
+    background: linear-gradient(180deg, #2E8E32 0%, #000 175%);
+    margin-left: 3%;
+    width: fit-content;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    border-radius: 50px;
+    align-items: center;
+  }
+
+
+
+
+  .agendadiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    background-color: #69B36C;
+
+    border-style: solid;
+    border-radius: 40px;
+    padding: 8px;
+    border-color: #CCCCCC;
+    border-width: 4px;
+
+  }
+
+  .agendah1 {
+    color: black;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+  }
+
+  #style1 {
+    color: #2E8E32;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    opacity: 0.8;
+  }
+
+  #agendah11 {
+    color: rgba(138, 225, 142, 0.92);
+    font-family: Rubik;
+    background: linear-gradient(180deg, rgba(51, 255, 192, 0.00) 0%, rgba(51, 255, 192, 0.80) 100%);
+    width: fit-content;
+    font-size: 45px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 1000;
+
+  }
+
+
+
+
+
+
+
+  .speakers {
+    display: flex;
+    justify-content: space-between;
+
+    height: 500px;
+    ;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 550px;
+    margin-top: 60px;
+
+
+  }
+
+  #speakersh2 {
+    font-weight: 900;
+    flex-shrink: 0;
+
+  }
+
+  .speakersdiv {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+
+  }
+
+
+
+  .speakersdiv1 {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, #3C7C2B 12%, #5BBE43 21%, #183111 33%, #000 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #3C7C2B 12%, #5BBE43 21%, #183111 33%, #000 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #3C7C2B 12%, #5BBE43 21%, #183111 33%, #000 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #3C7C2B 12%, #5BBE43 21%, #183111 33%, #000 50%) top right / 50% 50% no-repeat;
+    padding: 50px;
+    width: 15%;
+    border-color: #2E8E32;
+
+
+  }
+
+  #speakersh1 {
+    color: rgba(138, 225, 142, 0.92);
+    font-family: Rubik;
+    background: linear-gradient(180deg, rgba(51, 255, 192, 0.00) 0%, rgba(51, 255, 192, 0.80) 100%);
+    width: fit-content;
+    font-size: 45px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 1000;
+
+  }
